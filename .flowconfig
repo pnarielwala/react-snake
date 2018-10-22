@@ -1,0 +1,15 @@
+[include]
+./src
+
+[ignore]
+
+[libs]
+
+[options]
+sharedmemory.hash_table_pow=21
+module.name_mapper='^\(.*\)$' -> '<PROJECT_ROOT>/src/\1'
+module.file_ext=.js
+module.file_ext=.scss
+module.system.node.resolve_dirname=node_modules
+
+esproposal.class_static_fields=enable
